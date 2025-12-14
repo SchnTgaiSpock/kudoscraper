@@ -1,0 +1,19 @@
+{
+  "name": "kudoscraper",
+  "packageManager": "yarn@4.12.0",
+  "type": "module",
+  "scripts": {
+    "scrape": "node src/scripts/scrape.ts"
+  },
+  "dependencies": {
+    "@types/hast": "^3.0.4",
+    "@types/minimist": "^1.2.5",
+    "minimist": "^1.2.8",
+    "puppeteer": "^24.33.0",
+    "rehype-parse": "^9.0.1",
+    "rehype-sanitize": "^6.0.0",
+    "rehype-stringify": "^10.0.1",
+    "typescript": "^5.9.3",
+    "unified": "^11.0.5"
+  }
+}
